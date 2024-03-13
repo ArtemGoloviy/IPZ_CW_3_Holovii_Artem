@@ -1,4 +1,4 @@
-package com.example.ipz_cw_3
+package ua.edu.lntu_cw_3
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,7 +17,6 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
-import com.example.ipz_cw_3.ui.theme.IPZ_CW_3_Holovii_ArtemTheme
 import ua.edu.lntu.cw_3.ui.theme.IPZ_CW_3_Holovii_ArtemTheme
 
 class MainActivity : ComponentActivity() {
@@ -45,7 +44,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
             text = "30 day of sport",
             modifier = modifier.fillMaxSize(),
             textAlign = TextAlign.Center,
-            style = TextStyle(fontSize = 32.sp, color = Color.Black)
+            style = TextStyle(fontSize = 30.sp, color = Color.Black)
         )
     }
 }
